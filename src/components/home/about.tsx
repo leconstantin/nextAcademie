@@ -22,11 +22,11 @@ export default function About() {
                 {article.content}
               </p>
             </div>
-            <div className="lg:w-1/2 shadow-xl rounded-md bg-indigo-100">
+            <div className="lg:w-1/2 shadow-xl rounded-md bg-indigo-100 ">
               <img
                 src={article.src}
                 alt={article.banner}
-                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl hover:animate-bounce animate-spin"
+                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl animate-pulse animate-infinite animate-duration-9000"
                 loading="lazy"
                 title={article.banner}
               />

@@ -5,7 +5,7 @@ export default function Testimonial() {
   return (
     <section className="test px-6 md:px-14 pt-10 pb-20 p-">
       <div className="flex flex-col">
-        <div className="mx-auto max-w-xl text-center">
+        <div className="mx-auto max-w-xl lg:max-w-2xl text-center">
           <h2 className="text-indigo-600 font-semibold text-lg leading-6 tracking-tight">
             Testimonials
           </h2>

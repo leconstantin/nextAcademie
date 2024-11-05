@@ -37,7 +37,7 @@ export default function Program() {
                     alt={article.alt}
                     title={article.alt}
                     loading="lazy"
-                    className="rounded-lg lg:h-[11.5rem] w-full ring-1 ring-zinc-200 hover:scale-110 transition-all"
+                    className="rounded-lg lg:h-[11.5rem] w-full ring-1 ring-zinc-200 hover:scale-110 transition-all ease-in-out duration-400"
                   />
                 </div>
                 {article.id == 2 && (

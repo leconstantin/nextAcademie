@@ -46,6 +46,29 @@ export default function Hero() {
             </button>
           ))}
         </div>
+        <div className="pt-9 animate-bounce">
+          <a href="#about" className="mt-8 cursor-pointer animate-bounce">
+            <svg
+              width="53"
+              height="53"
+              viewBox="0 0 53 53"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle
+                cx="27"
+                cy="26"
+                r="18"
+                stroke="white"
+                stroke-width="2"
+              ></circle>
+              <path
+                d="M22.41 23.2875L27 27.8675L31.59 23.2875L33 24.6975L27 30.6975L21 24.6975L22.41 23.2875Z"
+                fill="white"
+              ></path>
+            </svg>
+          </a>
+        </div>
       </div>
     </main>
   );

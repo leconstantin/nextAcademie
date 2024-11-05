@@ -5,204 +5,95 @@ export const metadata: Metadata = {
 export default function page() {
   return (
     <main>
-      <section className="bg-white dark:bg-gray-900">
-        <div className="container px-6 py-12 mx-auto">
-          <div>
-            <p className="font-medium text-blue-500 dark:text-blue-400">
-              Contact us
-            </p>
-
-            <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
-              Chat to our friendly team
-            </h1>
-
-            <p className="mt-3 text-gray-500 dark:text-gray-400">
-              We’d love to hear from you. Please fill out this form or shoot us
-              an email.
+      {/* about */}
+      <section className="px-6 lg:px-14 pt-10 pb-20">
+        <div className="lg:px-4">
+          <div className="py-12">
+            <p className="font-medium text-lg text-gray-500">Welcome</p>
+            <h2 className="font-bold text-blue-400 text-4xl md:w-1/2  pt-2">
+              Get in Touch
+            </h2>
+            <p className="pt-1 md:w-[70vw] text-balance text-slate-600 ">
+              Visit our campus to experiencce our vibrant learning environment
+              and dedicated staff.
             </p>
           </div>
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13128.209147203068!2d30.0505379!3d-1.5720065!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dc7de941d47015%3A0xa832b08ab391125e!2sAcademie%20De%20La%20Salle%20Byumba!5e1!3m2!1sen!2srw!4v1727861427706!5m2!1sen!2srw"
+              width="600"
+              height="500"
+              style={{ border: 0 }}
+              loading="lazy"
+              className="w-full rounded-lg"
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
-          <div className="grid grid-cols-1 gap-12 mt-10 lg:grid-cols-2">
-            <div className="grid grid-cols-1 gap-12 md:grid-cols-2">
-              <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
-                    />
-                  </svg>
-                </span>
+      <section className="px-6 lg:px-14 pt-10 pb-20">
+        <div className="px-4">
+          <h2 className="font-bold text-blue-400 text-4xl pt-2">Contact Us</h2>
+          <p className="pt-2 w-[70vw] text-balance text-slate-600 ">
+            We'd love to hear from you ❕
+            <hr className="w-40 border border-blue-400" />
+          </p>
+        </div>
+        <div className="px-4 space-y-16 md:flex items-center justify-center">
+          <div className="md:w-1/2">
+            <div className="">
+              <p className="text-gray-700 text-lg font-medium flex items-center gap-4 pt-10">
+                <span className="text-xl">📧</span>
+                academie@gmail.com
+              </p>
+              <p className="text-gray-700 text-lg font-medium flex items-center gap-4 pt-10">
+                <span className="text-xl"> 📞</span>
+                +25079552432
+              </p>
+              <p className="text-gray-700 text-lg font-medium flex items-center gap-4 pt-10">
+                <span className="text-xl">🧭</span>
+                Gicumbi - Byumba - Nyamabuye
+              </p>
+            </div>
+          </div>
+          <div className="md:w-1/2">
+            <form className="max-w-full mx-auto flex flex-col gap-y-5">
+              <div className="flex flex-col gap-3">
+                <label htmlFor="name" className="text-zinc-700 font-medium">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="academie dela salle"
+                  className="block w-full appearance-none rounded-md border-0 ring-1 ring-gray-950/10 bg-white px-3 py-2 text-sm text-zinc-950 shadow outline-none placeholder:text-zinc-500"
+                />
+              </div>
 
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
+              <div className="flex flex-col gap-3">
+                <label htmlFor="name" className="text-zinc-700 font-medium">
                   Email
-                </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Our friendly team is here to help.
-                </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  hello@merakiui.com
-                </p>
+                </label>
+                <input
+                  type="email"
+                  placeholder="youremail@gmail.com"
+                  className="block w-full appearance-none rounded-md border-0 ring-1 ring-gray-950/10 bg-white px-3 py-2 text-sm text-zinc-950 shadow outline-none placeholder:text-zinc-500"
+                />
               </div>
 
-              <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                    />
-                  </svg>
-                </span>
-
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                  Live chat
-                </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Our friendly team is here to help.
-                </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  Start new chat
-                </p>
+              <div className="flex flex-col gap-3">
+                <label htmlFor="name" className="text-zinc-700 font-medium">
+                  Your message
+                </label>
+                <textarea
+                  placeholder="Ex: When is the visiting day...."
+                  className="block w-full appearance-none rounded-md border-0 ring-1 ring-gray-950/10 bg-white px-3 py-2 text-sm text-zinc-950 shadow outline-none placeholder:text-zinc-500 min-h-28"
+                />
               </div>
 
-              <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
-                    />
-                  </svg>
-                </span>
-
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                  Office
-                </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Come say hello at our office HQ.
-                </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  100 Smith Street Collingwood VIC 3066 AU
-                </p>
-              </div>
-
-              <div>
-                <span className="inline-block p-3 text-blue-500 rounded-full bg-blue-100/80 dark:bg-gray-800">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    className="w-5 h-5"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
-                    />
-                  </svg>
-                </span>
-
-                <h2 className="mt-4 text-base font-medium text-gray-800 dark:text-white">
-                  Phone
-                </h2>
-                <p className="mt-2 text-sm text-gray-500 dark:text-gray-400">
-                  Mon-Fri from 8am to 5pm.
-                </p>
-                <p className="mt-2 text-sm text-blue-500 dark:text-blue-400">
-                  +1 (555) 000-0000
-                </p>
-              </div>
-            </div>
-
-            <div className="p-4 py-6 rounded-lg bg-gray-50 dark:bg-gray-800 md:p-8">
-              <form>
-                <div className="-mx-2 md:items-center md:flex">
-                  <div className="flex-1 px-2">
-                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                      First Name
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="John "
-                      className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    />
-                  </div>
-
-                  <div className="flex-1 px-2 mt-4 md:mt-0">
-                    <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                      Last Name
-                    </label>
-                    <input
-                      type="text"
-                      placeholder="Doe"
-                      className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    />
-                  </div>
-                </div>
-
-                <div className="mt-4">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Email address
-                  </label>
-                  <input
-                    type="email"
-                    placeholder="johndoe@example.com"
-                    className="block w-full px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                  />
-                </div>
-
-                <div className="w-full mt-4">
-                  <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">
-                    Message
-                  </label>
-                  <textarea
-                    className="block w-full h-32 px-5 py-2.5 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-200 rounded-lg md:h-56 dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-blue-400 dark:focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40"
-                    placeholder="Message"
-                  ></textarea>
-                </div>
-
-                <button className="w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-lg hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
-                  Send message
-                </button>
-              </form>
-            </div>
+              <button className="block w-full my-4 appearance-none rounded-md border-0 ring-1 ring-gray-950/10 bg-white px-3 py-2 text-sm text-zinc-950 shadow outline-none hover:text-blue-300 hover:bg-zinc-100 font-semibold">
+                Submit
+              </button>
+            </form>
           </div>
         </div>
       </section>
