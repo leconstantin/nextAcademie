@@ -15,8 +15,8 @@ export default function News() {
             Stay informed about important events, academic updates,
             extracurricular activities, and special announcements. Get the
             latest news delivered directly to your inbox, ensuring you never
-            miss out on what's happening at our school. Sign up today and be
-            part of our vibrant community!
+            miss out on what&apos;s happening at our school. Sign up today and
+            be part of our vibrant community!
           </p>
         </div>
       </div>

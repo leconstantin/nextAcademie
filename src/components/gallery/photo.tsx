@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Photo() {
   return (
     <div className="bg-gray-100">
@@ -14,7 +15,9 @@ export default function Photo() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
           {/* <!-- Large item --> */}
           <div className="md:col-span-2 md:row-span-2 relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/likes.jpg"
               alt="Nature"
               className="w-full h-full object-cover"
@@ -31,7 +34,9 @@ export default function Photo() {
 
           {/* <!-- Two small items --> */}
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/aaa.jpg"
               alt="Food"
               className="w-full h-48 object-cover"
@@ -45,7 +50,9 @@ export default function Photo() {
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/bbb.jpg"
               alt="Technology"
               className="w-full h-48 object-cover"
@@ -59,9 +66,11 @@ export default function Photo() {
             </div>
           </div>
 
-          {/* <!-- Three medium items --> */}
+          {/* <!-- Two medium items --> */}
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/ccc.jpg"
               alt="Travel"
               className="w-full h-48 object-cover"
@@ -75,7 +84,9 @@ export default function Photo() {
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/ddd.jpg"
               alt="Art"
               className="w-full h-48 object-cover"
@@ -91,7 +102,9 @@ export default function Photo() {
 
           {/* <!-- bottom cards --> */}
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/eee.jpg"
               alt="Sport"
               className="w-full h-48 object-cover"
@@ -106,7 +119,9 @@ export default function Photo() {
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/fff.jpg"
               alt="Sport"
               className="w-full h-48 object-cover"
@@ -121,7 +136,9 @@ export default function Photo() {
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/ggg.jpg"
               alt="Sport"
               className="w-full h-48 object-cover"
@@ -136,7 +153,9 @@ export default function Photo() {
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
-            <img
+            <Image
+              width={500}
+              height={500}
               src="/school/hhh.jpg"
               alt="Sport"
               className="w-full h-48 object-cover"

@@ -13,8 +13,8 @@ export default function NotFound() {
               We lost this page
             </h1>
             <p className="mt-4 text-gray-500 dark:text-gray-400">
-              We searched high and low, but couldn't find what you're looking
-              for.Let's find a better place for you to go.
+              We searched high and low, but couldn&apos;t find what you&apos;re
+              looking for.Let&apos;s find a better place for you to go.
             </p>
 
             <div className="flex items-center w-full mt-6 gap-x-3 shrink-0 sm:w-auto">
@@ -167,7 +167,7 @@ export default function NotFound() {
               </h3>
 
               <p className="mt-2 text-gray-500 dark:text-gray-400 ">
-                Can't find what you're looking for?
+                Can&apos;t find what you&apos;re looking for?
               </p>
 
               <aside className="inline-flex items-center mt-4 text-sm text-blue-500 gap-x-2 dark:text-blue-400 hover:underline">

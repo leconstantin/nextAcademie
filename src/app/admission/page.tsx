@@ -137,7 +137,7 @@ export default function page() {
                   <ol className="flex flex-col gap-5">
                     <li>
                       <mark className="bg-orange-400">
-                        Research Period (6–12 months before applying) :
+                        Research Period (6-12 months before applying) :
                       </mark>
                       <p className="text-zinc-700 py-2">
                         Start researching schools and programs Or Attend open
@@ -298,7 +298,7 @@ export default function page() {
                     </label>
                     <p className="text-zinc-500 py-2 lg:max-w-sm">
                       Enter your personal email for easy communicaton (if you
-                      don't have it use your parent's email)
+                      don&apos;t have it use your parent&apos;s email)
                     </p>
                   </div>
                   <div className="lg:w-full">
@@ -347,7 +347,7 @@ export default function page() {
                     </label>
                     <p className="text-zinc-500 py-2 lg:max-w-sm">
                       In short summary type your answer in provided input (if
-                      you don't have it use your parent's email)
+                      you don&apos;t have it use your parent&apos;s email)
                     </p>
                   </div>
                   <div className="lg:w-full">

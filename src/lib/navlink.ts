@@ -1,4 +1,3 @@
-import { MdGroups3 } from "react-icons/md";
 export const navLinks = [
     {
         id: 1,

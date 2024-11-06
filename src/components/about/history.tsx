@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function History() {
   return (
     <section className="px-6 lg:px-14 pt-3">
@@ -15,9 +16,11 @@ export default function History() {
       </div>
       <div className="md:flex lg:flex-row-reverse md:gap-x-5 lg:gap-x-16 gap-y-10 pt-20 ">
         <div className="md:w-1/2 pb-10  md:pb-0">
-          <img
+          <Image
             src="/school/likes.jpg"
-            alt=""
+            alt="school image"
+            width={500}
+            height={300}
             className="rounded-md ring-4 ring-white rotate-2"
           />
         </div>

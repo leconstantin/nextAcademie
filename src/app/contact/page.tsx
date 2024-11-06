@@ -35,7 +35,7 @@ export default function page() {
         <div className="px-4">
           <h2 className="font-bold text-blue-400 text-4xl pt-2">Contact Us</h2>
           <p className="pt-2 w-[70vw] text-balance text-slate-600 ">
-            We'd love to hear from you ❕
+            We&apos;d love to hear from you ❕
             <span className="w-40 border border-blue-400"></span>
           </p>
         </div>

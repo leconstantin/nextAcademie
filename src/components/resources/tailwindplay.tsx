@@ -40,7 +40,7 @@ export default function Play() {
                     <code className="text-sm font-bold text-gray-900">
                       Attendance Policy:
                     </code>{" "}
-                    A detailed explanation of the school's attendance
+                    A detailed explanation of the school&apos;s attendance
                     requirements, including tardiness, excused and unexcused
                     absences, and procedures for reporting absences.
                   </p>
@@ -54,7 +54,7 @@ export default function Play() {
                     <code className="text-sm font-bold text-gray-900">
                       Attendance Policy:
                     </code>{" "}
-                    A detailed explanation of the school's attendance
+                    A detailed explanation of the school&apos;s attendance
                     requirements, including tardiness, excused and unexcused
                     absences, and procedures for reporting absences.
                   </p>

@@ -1,6 +1,7 @@
 import { IoLogoFacebook } from "react-icons/io5";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import Image from "next/image";
 export default function OurStaff() {
   return (
     <section className="bg-white dark:bg-gray-900">
@@ -18,10 +19,12 @@ export default function OurStaff() {
         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-3 xl:grid-cols-3">
           <div className="px-6 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-500 dark:border-gray-700 dark:hover:border-transparent ease-in duration-400">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
+                alt="first person"
               />
 
               <div className="mt-4 sm:mx-4 sm:mt-0">
@@ -68,10 +71,12 @@ export default function OurStaff() {
 
           <div className="px-6 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent ease-in duration-400">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-                alt=""
+                alt="second person"
               />
 
               <div className="mt-4 sm:mx-4 sm:mt-0">
@@ -118,10 +123,12 @@ export default function OurStaff() {
 
           <div className="px-6 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent ease-in duration-400">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                alt=""
+                alt="Third"
               />
 
               <div className="mt-4 sm:mx-4 sm:mt-0">
@@ -168,10 +175,12 @@ export default function OurStaff() {
 
           <div className="px-6 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent ease-in duration-400">
             <div className="flex flex-col sm:-mx-4 sm:flex-row">
-              <img
+              <Image
+                width={100}
+                height={100}
                 className="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
                 src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt=""
+                alt="fourth"
               />
 
               <div className="mt-4 sm:mx-4 sm:mt-0">

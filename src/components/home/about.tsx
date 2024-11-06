@@ -1,5 +1,5 @@
 import { aboutContent } from "@/lib/home";
-
+import Image from "next/image";
 export default function About() {
   return (
     <div className="">
@@ -19,15 +19,16 @@ export default function About() {
           <div className="flex  flex-col-reverse lg:flex-row pt-20 gap-x-16 gap-y-10">
             <div className="lg:w-1/2">
               <p className="font-medium text-zinc-700 leading-8 text-lg text-balance">
-                {article.content}
+                {article.content}ppp
               </p>
             </div>
             <div className="lg:w-1/2 shadow-xl rounded-md bg-indigo-100 ">
-              <img
+              <Image
+                width={700}
+                height={500}
                 src={article.src}
                 alt={article.banner}
-                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl "
-                loading="lazy"
+                className="rounded-md ring-2 ring-zinc-100 rotate-6 shadow-xl "
                 title={article.banner}
               />
             </div>

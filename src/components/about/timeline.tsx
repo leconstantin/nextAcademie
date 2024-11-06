@@ -1,5 +1,4 @@
-import React from "react";
-
+import Image from "next/image";
 export default function Timeline() {
   return (
     <section className="px-6 md:px-14 pt-10 pb-20 ">
@@ -121,10 +120,12 @@ export default function Timeline() {
                     <tr>
                       <td className="px-4 py-4 text-sm font-medium text-gray-700 whitespace-nowrap">
                         <div className="flex items-center gap-x-2">
-                          <img
+                          <Image
+                            width={100}
+                            height={100}
                             className="object-cover w-10 h-10 rounded-full"
                             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                            alt=""
+                            alt="member one"
                           />
                           <div>
                             <h2 className="font-medium text-gray-800 dark:text-white ">
@@ -167,10 +168,12 @@ export default function Timeline() {
                     <tr>
                       <td className="px-4 py-4 text-sm font-medium text-gray-700 whitespace-nowrap">
                         <div className="flex items-center gap-x-2">
-                          <img
+                          <Image
+                            width={100}
+                            height={100}
                             className="object-cover w-10 h-10 rounded-full"
                             src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-                            alt=""
+                            alt="member two"
                           />
                           <div>
                             <h2 className="font-medium text-gray-800 dark:text-white ">
@@ -213,10 +216,12 @@ export default function Timeline() {
                     <tr>
                       <td className="px-4 py-4 text-sm font-medium text-gray-700 whitespace-nowrap">
                         <div className="flex items-center gap-x-2">
-                          <img
+                          <Image
+                            width={100}
+                            height={100}
                             className="object-cover w-10 h-10 rounded-full"
                             src="https://images.unsplash.com/photo-1608174386344-80898cec6beb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                            alt=""
+                            alt="member three"
                           />
                           <div>
                             <h2 className="font-medium text-gray-800 dark:text-white ">
@@ -259,10 +264,12 @@ export default function Timeline() {
                     <tr>
                       <td className="px-4 py-4 text-sm font-medium text-gray-700 whitespace-nowrap">
                         <div className="flex items-center gap-x-2">
-                          <img
+                          <Image
+                            width={100}
+                            height={100}
                             className="object-cover w-10 h-10 rounded-full"
                             src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt=""
+                            alt="member four"
                           />
                           <div>
                             <h2 className="font-medium text-gray-800 dark:text-white ">
@@ -305,10 +312,12 @@ export default function Timeline() {
                     <tr>
                       <td className="px-4 py-4 text-sm font-medium text-gray-700 whitespace-nowrap">
                         <div className="flex items-center gap-x-2">
-                          <img
+                          <Image
+                            width={100}
+                            height={100}
                             className="object-cover w-10 h-10 rounded-full"
                             src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                            alt=""
+                            alt="member five"
                           />
                           <div>
                             <h2 className="font-medium text-gray-800 dark:text-white ">

@@ -1,5 +1,5 @@
 import { programContent } from "@/lib/home";
-
+import Image from "next/image";
 export default function Program() {
   return (
     <section className="px-6 md:px-14 pt-10 pb-20">
@@ -35,7 +35,9 @@ export default function Program() {
                   </div>
                 )}
                 <div className="shadow-lg transition-l">
-                  <img
+                  <Image
+                    width={500}
+                    height={500}
                     src={article.src}
                     alt={article.alt}
                     title={article.alt}
