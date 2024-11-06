@@ -15,8 +15,11 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-black opacity-55"></div>
       <div className="relative z-10 flex flex-col justify-center items-center h-screen px-4 md:px-14">
-        {heroContent.map((content) => (
-          <div className="flex flex-col items-center justify-center">
+        {heroContent.map((content, index) => (
+          <div
+            className="flex flex-col items-center justify-center"
+            key={index}
+          >
             <div>
               <p className="mx-auto max-w-5xl text-4xl md:text-5xl font-medium font-poppins tracking-tight text-slate-50  text-center">
                 {content.title}

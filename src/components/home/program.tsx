@@ -20,7 +20,10 @@ export default function Program() {
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20">
             {programContent.map((article) => (
-              <div className="py-4 md:px-4 lg:flex flex-col gap-16 space-y-7">
+              <div
+                className="py-4 md:px-4 lg:flex flex-col gap-16 space-y-7"
+                key={article.id}
+              >
                 {article.id !== 2 && (
                   <div>
                     <h3 className="font-medium text-xl text-center pt-4 text-zinc-800 tracking-tight">
@@ -37,7 +40,7 @@ export default function Program() {
                     alt={article.alt}
                     title={article.alt}
                     loading="lazy"
-                    className="rounded-lg lg:h-[11.5rem] w-full ring-1 ring-zinc-200 hover:scale-110 transition-all ease-in-out duration-400"
+                    className="rounded-lg lg:h-[11.5rem] w-full ring-1 ring-zinc-200 hover:scale-105 transition-all ease-in-out duration-400"
                   />
                 </div>
                 {article.id == 2 && (

@@ -26,7 +26,7 @@ export default function About() {
               <img
                 src={article.src}
                 alt={article.banner}
-                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl animate-pulse animate-infinite animate-duration-9000"
+                className="rounded-md ring-1 ring-zinc-200 rotate-6 shadow-xl "
                 loading="lazy"
                 title={article.banner}
               />

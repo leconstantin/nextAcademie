@@ -1,12 +1,4 @@
-import {
-  FiEdit,
-  FiChevronDown,
-  FiTrash,
-  FiShare,
-  FiPlusSquare,
-  FiUser,
-  FiTv,
-} from "react-icons/fi";
+import { FiChevronDown, FiUser, FiTv } from "react-icons/fi";
 import { motion } from "framer-motion";
 import { Dispatch, SetStateAction, useState } from "react";
 import { IconType } from "react-icons";
@@ -36,7 +28,7 @@ const GroupMenu = () => {
           initial={wrapperVariants.closed}
           variants={wrapperVariants}
           style={{ originY: "top", translateX: "-50%" }}
-          className="flex flex-col gap-2 p-2 rounded-lg shadow-xl absolute top-[125%] left-[50%] w-48 overflow-hidden"
+          className="flex flex-col gap-2 p-2 rounded-lg shadow-xl absolute top-[125%] left-[50%] w-48 overflow-hidden bg-white z-50"
         >
           {navGroup.map((nav) => (
             <Link key={nav.id} href={nav.href}>

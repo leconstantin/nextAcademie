@@ -9,8 +9,11 @@ export default function Principal() {
         <p className="text-lg text-blue-400 ">Principal Message</p>
       </div>
       <div className="relative">
-        {principal.map((le) => (
-          <figure className="md:flex rounded-md border-0 ring-1 ring-gray-950/10 bg-white shadow p-8 md:p-0">
+        {principal.map((le, index) => (
+          <figure
+            key={index}
+            className="md:flex rounded-md border-0 ring-1 ring-gray-950/10 bg-white shadow p-8 md:p-0"
+          >
             <Image
               className="md:w-48 md:h-auto md:rounded-none rounded-md w-full h-56 object-cover mx-auto block bg-indigo-50"
               src={le.imgUrl}

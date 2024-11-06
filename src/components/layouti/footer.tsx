@@ -124,7 +124,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-auto text-center text-zinc-200 boder-t">
+        <div className="mt-auto text-center text-zinc-200 boder-t py-6">
           <small>&copy; 2024. All right reserved by Academie dela salle</small>
         </div>
       </footer>
