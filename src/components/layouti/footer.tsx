@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 export default function Footer() {
   return (
     <>
-      <footer className="bg-blue-400 darK:bg-neutral-800 px-6 lg:px-10 pt-10 text-white">
+      <footer className="bg-blue-400 dark:bg-neutral-900 px-6 lg:px-10 pt-10 text-white">
         <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-y-6 gap-x-2 pb-9 pt-5">
           <div className="lg:col-span-2 w-full">
             <h5 className="font-bold uppercase tracking-tight pb-3">
@@ -107,19 +107,19 @@ export default function Footer() {
         <hr className="border border-slate-200 mt-4" />
 
         <div className="flex md:justify-end mt-6 gap-4">
-          <div className="bg-white hover:bg-transparent h-10 w-10 text-black flex items-center justify-center rounded-full shadow-lg shadow-blue-900 hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
+          <div className="bg-white hover:bg-transparent h-10 w-10 text-black dark:hover:text-white flex items-center justify-center rounded-full shadow-lg shadow-blue-900 dark:shadow-none hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
             <BsTwitterX size={20} />
           </div>
-          <div className="bg-white hover:bg-transparent h-10 w-10 text-black flex items-center justify-center rounded-full shadow-lg shadow-blue-900 hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
+          <div className="bg-white hover:bg-transparent h-10 w-10 text-black dark:hover:text-white flex items-center justify-center rounded-full shadow-lg shadow-blue-900 dark:shadow-none hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
             <FaYoutube size={20} />
           </div>
-          <div className="bg-white hover:bg-transparent h-10 w-10 text-black flex items-center justify-center rounded-full shadow-lg shadow-blue-900 hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
+          <div className="bg-white hover:bg-transparent h-10 w-10 text-black dark:hover:text-white flex items-center justify-center rounded-full shadow-lg shadow-blue-900 dark:shadow-none hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
             <FaFacebookF size={20} />
           </div>
-          <div className="bg-white hover:bg-transparent h-10 w-10 text-black flex items-center justify-center rounded-full shadow-lg shadow-blue-900 hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
+          <div className="bg-white hover:bg-transparent h-10 w-10 text-black dark:hover:text-white flex items-center justify-center rounded-full shadow-lg shadow-blue-900 dark:shadow-none hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
             <FaInstagram size={20} />
           </div>
-          <div className="bg-white hover:bg-transparent h-10 w-10 text-black flex items-center justify-center rounded-full shadow-lg shadow-blue-900 hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
+          <div className="bg-white hover:bg-transparent h-10 w-10 text-black dark:hover:text-white flex items-center justify-center rounded-full shadow-lg shadow-blue-900 dark:shadow-none hover:scale-110 hover:ring-1 ring-white ease-in duration-300 cursor-pointer">
             <FaWhatsapp size={20} />
           </div>
         </div>

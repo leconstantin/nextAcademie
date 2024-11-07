@@ -13,7 +13,7 @@ export default function Hero() {
         />
       </div>
 
-      <div className="absolute inset-0 bg-black opacity-55"></div>
+      <div className="absolute inset-0 bg-black opacity-50 dark:opacity-65"></div>
       <div className="relative z-10 flex flex-col justify-center items-center h-screen px-4 md:px-14">
         {heroContent.map((content, index) => (
           <div
@@ -49,7 +49,7 @@ export default function Hero() {
             </button>
           ))}
         </div>
-        <div className="pt-9 animate-bounce">
+        <div className="pt-9 md:pt-14 animate-bounce">
           <a href="#about" className="mt-8 cursor-pointer animate-bounce">
             <svg
               width="53"

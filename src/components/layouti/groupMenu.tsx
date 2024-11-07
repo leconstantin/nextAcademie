@@ -28,7 +28,7 @@ const GroupMenu = () => {
           initial={wrapperVariants.closed}
           variants={wrapperVariants}
           style={{ originY: "top", translateX: "-50%" }}
-          className="flex flex-col gap-2 p-2 rounded-lg shadow-xl absolute top-[125%] left-[50%] w-48 overflow-hidden bg-white z-50"
+          className="flex flex-col gap-2 p-2 rounded-lg shadow-xl absolute top-[125%] left-[50%] w-48 overflow-hidden bg-white dark:bg-gray-800 z-50"
         >
           {navGroup.map((nav) => (
             <Link key={nav.id} href={nav.href}>
@@ -68,7 +68,7 @@ const Option = ({
     <motion.li
       variants={itemVariants}
       onClick={() => setOpen(false)}
-      className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-100 text-slate-700 hover:text-indigo-500 transition-colors cursor-pointer"
+      className="flex items-center gap-2 w-full p-2 text-xs font-medium whitespace-nowrap rounded-md hover:bg-indigo-100 dark:hover:bg-gray-700 text-slate-700 hover:text-indigo-500 dark:text-zinc-50 dark:hover:text-zinc-200 transition-colors cursor-pointer"
     >
       <motion.span variants={actionIconVariants}>
         <Icon />

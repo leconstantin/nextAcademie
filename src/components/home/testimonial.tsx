@@ -10,7 +10,7 @@ export default function Testimonial() {
             Testimonials
           </h2>
 
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
             Hear from our students and Parents on the impact of
             <span className="text-blue-400"> our school community.</span>
           </p>

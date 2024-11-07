@@ -5,12 +5,12 @@ export default function Program() {
     <section className="px-6 md:px-14 pt-10 pb-20">
       <div className="flex flex-col">
         <div className="flex flex-col items-center justify-center">
-          <p className="text-lg text-gray-500 ">Excellence</p>
+          <p className="text-lg text-gray-500 dark:text-gray-50">Excellence</p>
           <h2 className="font-bold text-4xl lg:w-1/2 text-center pt-4">
             Discover Our Unique
             <span className="text-blue-400 block">Educational Programs</span>
           </h2>
-          <p className="pt-4 text-center tracking-tight lg:w-[70vw] md:text-balance text-slate-600 ">
+          <p className="pt-4 text-center tracking-tight lg:w-[70vw] md:text-balance text-slate-600 dark:text-gray-200">
             Our school offers a variety of innovative programs designed to
             foster creativity and critical thinking. We are commited to
             nurturing well-rounded individuals who excel academically and
@@ -18,7 +18,7 @@ export default function Program() {
           </p>
         </div>
         <div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-20 ">
             {programContent.map((article) => (
               <div
                 className="py-4 md:px-4 lg:flex flex-col gap-16 space-y-7"
@@ -26,10 +26,10 @@ export default function Program() {
               >
                 {article.id !== 2 && (
                   <div>
-                    <h3 className="font-medium text-xl text-center pt-4 text-zinc-800 tracking-tight">
+                    <h3 className="font-medium text-xl text-center pt-4 text-zinc-800 dark:text-blue-400 tracking-tight">
                       {article.title}
                     </h3>
-                    <p className="text-center text-zinc-700 pt-2 text-md">
+                    <p className="text-center text-zinc-700 dark:text-zinc-100 pt-2 text-md">
                       {article.subtitile}.
                     </p>
                   </div>
@@ -47,10 +47,10 @@ export default function Program() {
                 </div>
                 {article.id == 2 && (
                   <div>
-                    <h3 className="font-medium text-xl text-center pt-4 text-zinc-800 tracking-tight">
+                    <h3 className="font-medium text-xl text-center pt-4 text-zinc-800 dark:text-blue-400 tracking-tight">
                       {article.title}
                     </h3>
-                    <p className="text-center text-zinc-700 pt-2 text-md">
+                    <p className="text-center text-zinc-700 dark:text-zinc-100 pt-2 text-md">
                       {article.subtitile}.
                     </p>
                   </div>

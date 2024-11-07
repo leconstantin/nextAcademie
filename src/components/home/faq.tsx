@@ -8,7 +8,7 @@ export default function Faq() {
           <p className="text-base font-semibold text-indigo-500">
             Frequently asked questions 🙋🏽
           </p>
-          <h2 className="mt-4 text-4xl font-bold tracking-tight text-zinc-800  xl:text-4xl xl:leading-[3.5rem]">
+          <h2 className="mt-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100  xl:text-4xl xl:leading-[3.5rem]">
             Your guide to
             <span className="text-indigo-400"> our School Community</span>
           </h2>
@@ -18,17 +18,17 @@ export default function Faq() {
             General
           </h2>
 
-          <dl className="mt-2 divide-y divide-slate-100 ">
+          <dl className="mt-2 divide-y divide-slate-100 dark:divide-zinc-700">
             {faqs.map((faq) => (
               <details
                 key={faq.id}
                 className="group py-4 marker:content-[&#39;&#39;]"
               >
                 <summary className="flex w-full cursor-pointer select-none justify-between items-center gap-x-3 lg:gap-x-3 md:gap-0 text-left text-base font-semibold leading-7 text-slate-900 group-open:text-indigo-600 [&amp;::-webkit-details-marker]:hidden">
-                  <h4>{faq.question}</h4>
+                  <h4 className="dark:text-white">{faq.question}</h4>
 
                   <svg
-                    className="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700  group-open:stroke-indigo-500"
+                    className="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700 dark:stroke-slate-50  group-open:stroke-indigo-500"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
                     stroke-width="2"

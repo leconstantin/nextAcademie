@@ -14,8 +14,8 @@ const TestimonialCard = ({
 }) => {
   return (
     <div className="">
-      <figure className="space-y-6 rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5 transition">
-        <blockquote className="text-gray-900">
+      <figure className="space-y-6 rounded-2xl bg-white dark:bg-gray-950 p-6 shadow-lg ring-1 ring-gray-900/5 transition">
+        <blockquote className="text-gray-900 dark:text-gray-100">
           <p>{body}</p>
         </blockquote>
         <figcaption className="flex items-center gap-x-4">
@@ -28,8 +28,8 @@ const TestimonialCard = ({
             className="h-10 w-10 flex-none rounded-full bg-gray-50 object-cover"
           />
           <div className="flex-auto">
-            <div className="font-medium">{name}</div>
-            <div className="text-zinc-500">{handle}</div>
+            <div className="font-medium ">{name}</div>
+            <div className="text-zinc-500 dark:text-zinc-300">{handle}</div>
           </div>
         </figcaption>
       </figure>

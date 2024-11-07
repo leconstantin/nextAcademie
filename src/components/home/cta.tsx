@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Cta() {
   return (
-    <section className="bg-gray-100 dark:bg-gray-800 lg:py-12 lg:flex lg:justify-center">
+    <section className="bg-gray-100 dark:bg-neutral-900 lg:py-12 lg:flex lg:justify-center">
       <div className="overflow-hidden bg-white dark:bg-gray-900 lg:mx-8 lg:flex lg:max-w-6xl lg:w-full lg:shadow-md lg:rounded-xl flex md:flex-none md:flex-row flex-col items-center">
         <div className="lg:w-1/2">
           <div>

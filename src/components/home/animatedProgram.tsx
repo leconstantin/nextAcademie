@@ -1,8 +1,9 @@
 import { CiCircleCheck } from "react-icons/ci";
+import Link from "next/link";
 export default function AnimatedProgram() {
   return (
     <>
-      <div className="bg-gray-50  lg:flex items-center justify-center px-4 md:px-7 py-10 gap-9">
+      <div className="bg-gray-50 dark:bg-gray-950 lg:flex items-center justify-center px-4 md:px-7 py-10 gap-9">
         <div className="relative max-w-lg lg:w-1/2">
           {/* cicles */}
           {/* TODO:circle 1 */}
@@ -17,20 +18,24 @@ export default function AnimatedProgram() {
           {/* Rectangles */}
           <div className="m-8 relative space-y-4">
             {/* square 1 */}
-            <div className="p-5 bg-white rounded-lg font-bold">Nursery</div>
+            <div className="p-5 bg-white dark:text-gray-800 rounded-lg font-bold">
+              Nursery
+            </div>
             {/* square 2 */}
-            <div className="p-5 bg-white rounded-lg font-bold">Primary</div>
+            <div className="p-5 bg-white dark:text-gray-800 rounded-lg font-bold">
+              Primary
+            </div>
 
             {/* square 3 */}
 
-            <div className="p-5 bg-white rounded-lg flex items-center justify-between space-x-8 font-bold">
+            <div className="p-5 bg-white dark:text-gray-800 rounded-lg flex items-center justify-between space-x-8 font-bold">
               <div className="flex-1">Secondary</div>
             </div>
           </div>
         </div>
         <div>
           <div className="divide-y divide-gray-300/50 px-4">
-            <div className="space-y-6 py-8 text-base leading-7 text-gray-600">
+            <div className="space-y-6 py-8 text-base leading-7 text-gray-600 dark:text-gray-100">
               <p>Our school have different education systems which are:</p>
               <ul className="space-y-4">
                 <li className="flex items-center">
@@ -41,7 +46,7 @@ export default function AnimatedProgram() {
 
                   <p className="ml-4">
                     More efficient to
-                    <code className="text-sm font-bold text-gray-900">
+                    <code className="text-sm font-bold text-gray-900 dark:text-gray-50">
                       {" "}
                       every
                     </code>{" "}
@@ -55,7 +60,7 @@ export default function AnimatedProgram() {
                   />
                   <p className="ml-4">
                     Well{" "}
-                    <code className="text-sm font-bold text-gray-900">
+                    <code className="text-sm font-bold text-gray-900 dark:text-gray-50">
                       Prepared
                     </code>
                   </p>
@@ -74,14 +79,16 @@ export default function AnimatedProgram() {
               </p>
             </div>
             <div className="pt-8 text-base font-semibold leading-7">
-              <p className="text-gray-900">Want to know more about that ?</p>
+              <p className="text-gray-900 dark:text-gray-200">
+                Want to know more about that ?
+              </p>
               <p>
-                <a
-                  href="https://tailwindcss.com/docs"
+                <Link
+                  href="/academics"
                   className="text-sky-500 hover:text-sky-600"
                 >
                   Read more &rarr;
-                </a>
+                </Link>
               </p>
             </div>
           </div>

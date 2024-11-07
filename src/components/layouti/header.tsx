@@ -7,7 +7,7 @@ export default function Header() {
     <header className="flex justify-between items-center bg-white shadow dark:bg-gray-800 py-5 px-5 md:px-10">
       <div>
         <Link href="/">
-          <h1 className="text-xl font-semibold md:text-[25px] space-x-1 tracking-tight bg-gradient-to-b from-blue-200 via-blue-700 to-blue-600 text-transparent bg-clip-text dark:text-blue-500">
+          <h1 className="text-xl font-semibold md:text-[25px] space-x-1 tracking-tight bg-gradient-to-b from-blue-200 via-blue-700 to-blue-600 text-transparent bg-clip-text ">
             <span>Academie</span>
             <span className="text-blue-500">Dela</span>
             <span>Salle</span>
