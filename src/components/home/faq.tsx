@@ -1,5 +1,5 @@
 import { faqs } from "@/lib/home";
-
+import { FiMinus, FiPlus } from "react-icons/fi";
 export default function Faq() {
   return (
     <section className="px-6 md:px-14 pt-20 pb-24">
@@ -26,20 +26,10 @@ export default function Faq() {
               >
                 <summary className="flex w-full cursor-pointer select-none justify-between items-center gap-x-3 lg:gap-x-3 md:gap-0 text-left text-base font-semibold leading-7 text-slate-900 group-open:text-indigo-600 [&amp;::-webkit-details-marker]:hidden">
                   <h4 className="dark:text-white">{faq.question}</h4>
-
-                  <svg
-                    className="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700 dark:stroke-slate-50  group-open:stroke-indigo-500"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M18 12H6"></path>
-                    <path className="group-open:hidden" d="M12 6v12"></path>
-                  </svg>
+                  <FiPlus className="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700 dark:stroke-slate-50  group-open:hidden font-thin" />
+                  <FiMinus className="ml-4 mt-0.5 h-6 w-6 flex-none stroke-slate-700 dark:stroke-slate-50 hidden group-open:flex  group-open:stroke-indigo-500 font-thin" />
                 </summary>
-                <div>
+                <div className="pt-5">
                   <p>{faq.answer}</p>
                 </div>
               </details>

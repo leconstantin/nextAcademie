@@ -12,13 +12,13 @@ const GroupMenu = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex items-center justify-center ">
+    <div className="flex items-center justify-center">
       <motion.div animate={open ? "open" : "closed"} className="relative">
         <button
           onClick={() => setOpen((pv) => !pv)}
           className="flex items-center gap-2 px-3 py-1 rounded-md text-zinc-700 dark:text-zinc-100  hover:border-b-2 hover:border-blue-500 transition-colors"
         >
-          <span className="font-medium">School</span>
+          <span className="text-base">School</span>
           <motion.span variants={iconVariants}>
             <FiChevronDown />
           </motion.span>

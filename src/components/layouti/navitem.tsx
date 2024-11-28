@@ -21,7 +21,7 @@ export default function NavItem() {
               <li
                 className={`
               text-gray-800 transition-colors duration-300 transform dark:text-gray-200 mx-1  px-1 sm:px-4 rounded-md
-              hover:text-gray-800
+              hover:text-gray-800 text-base
               dark:hover:text-gray-200 hover:border-b-2 hover:border-blue-500
               ${pathName == link.href ? "border-b-2 border-blue-500" : ""}`}
               >

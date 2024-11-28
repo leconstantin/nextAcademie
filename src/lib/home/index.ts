@@ -115,32 +115,11 @@ export const people = [
     handle: "Faculty Member",
     body: "Teaching at Academie dela salle has been a rewarding experience. The collaborative environment and focus on innovation make it a unique place to work and learn.",
   },
-  {
-    id: 7,
-    imgUrl: "/people/fgh.jpg",
-    name: "MUGENZI Rutayisire",
-    handle: "New Family",
-    body: "Moving to Byumba was daunting, but Academie dela salle welcomed us with open arms. Our kids adjusted quickly, and we love being part of this community!",
-  },
-  {
-    id: 8,
-    imgUrl: "/people/princ.jpg",
-    name: "GANZA Benjamin",
-    handle: "Student Athlete",
-    body: "Being part of the [School Name] sports team taught me teamwork and discipline. The coaches are supportive and help us excel both on and off the field.",
-  },
-  {
-    id: 9,
-    imgUrl: "/people/qwe.jpg",
-    name: "BYIZA",
-    handle: "Community Membe",
-    body: "As a local resident, I've seen the positive impact Academie dela salle has on our community. They actively engage with families and foster a sense of belonging for everyone",
-  },
 ];
 export const principal = [
   {
     id: 1,
-    imgUrl:"",
+    imgUrl: "",
     alt: "principal image",
     name: "Mugabo david",
     title: "Principal, Academie dls",

@@ -15,9 +15,8 @@ const TestimonialCard = ({
   return (
     <div className="">
       <figure className="space-y-6 rounded-2xl bg-white dark:bg-gray-950 p-6 shadow-lg ring-1 ring-gray-900/5 transition">
-        <blockquote className="text-gray-900 dark:text-gray-100">
-          <p>{body}</p>
-        </blockquote>
+        <p className="text-gray-900 dark:text-gray-100">{body}</p>
+
         <figcaption className="flex items-center gap-x-4">
           <Image
             src={imgUrl}
